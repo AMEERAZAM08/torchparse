@@ -4,7 +4,7 @@ import torch.nn as nn
 from .utils import *
 
 class Layer(object):
-    """
+    """ 
     Base class for any layer. Safely convert its parameters and 
     keep track of its input shape.
     """
